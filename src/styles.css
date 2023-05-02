@@ -6,7 +6,7 @@
 }
 
 :root{
-  --ion-font-family: 'Comme', sans-serif;
+  --ion-font-family: 'Bitter', serif;
    /* barra superior */
    --ion-toolbar-background: #662D91;
    --ion-toolbar-color: #ffffff;
@@ -21,7 +21,7 @@
   --ion-text-color: #662D91;
   --ion-text-color-rgb: 255,255,255;
 
-  --ion-card-background: linear-gradient(139deg,#831affab 0%,transparent 130%);
+  --ion-card-background: linear-gradient(139deg,#831affab 0%,transparent 100%);
   --ion-item-background: transparent;  
 }
 .conteudo{
