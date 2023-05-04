@@ -1,10 +1,10 @@
-<ion-header>
+<!-- <ion-header>
   <ion-toolbar>
     <ion-title class="titulo">
       Perfil
     </ion-title>
   </ion-toolbar>
-</ion-header>
+</ion-header> -->
 
 <ion-content>
   <!-- <ion-icon name="person"></ion-icon> -->
@@ -14,15 +14,36 @@
       <p class="texto-item">
         Faça login ou cadastre-se para obter melhor experiência com o nosso aplicativo.
       </p>
-     <br> <ion-button (click)="whats()" expand="block" type="submit"
+     <!-- <br> <ion-button (click)="whats()" expand="block" type="submit"
         >Entrar</ion-button>
       <ion-button (click)="whats()" expand="block" type="submit"
-        >Conectar com o Google</ion-button>
-        
-        <p> Esqueci minha senha </p>
+        >Conectar com o Google</ion-button> -->
+               
+       <br> <p style="font-size:16px"> Esqueci minha senha </p>
 
-       <br> <h6>Ainda não tem conta? Cadastre-se!</h6>
+       <h6 style="font-size:14px" >Ainda não tem conta? <u>Cadastre-se!</u></h6>
     </div>
- 
-  
+    
+    <footer>
+      
+      <div class="conteudo">
+        
+       <br> <ion-buttons class="id" slot="end">
+        <p style="font-size:14px"> Visite nossas redes<p>
+          <ion-button>
+            <ion-icon (click)="face()" name="logo-facebook"></ion-icon>
+          </ion-button>
+          <ion-button>
+            <ion-icon name="logo-twitter"></ion-icon>
+          </ion-button>
+          <ion-button>
+            <ion-icon name="logo-instagram"></ion-icon>
+          </ion-button>
+        </ion-buttons>
+       
+      </div>
+      
+      </footer>
+    
+      
 </ion-content>
