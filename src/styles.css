@@ -14,9 +14,9 @@
    --ion-background-color: linear-gradient(180deg, #ffffff 0%, #ffffffeb 100%);
  
    /* barra inferior */
-   --ion-tab-bar-background: #662D91;
-   --ion-tab-bar-color: #ffffff;
-   --ion-tab-bar-color-selected: #faf604;
+   --ion-tab-bar-background: #ffffff;
+   --ion-tab-bar-color: #662D91;
+   --ion-tab-bar-color-selected: #0d3ce7;
 
   --ion-text-color: #662D91;
   --ion-text-color-rgb: 255,255,255;
